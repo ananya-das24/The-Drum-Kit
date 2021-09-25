@@ -1,0 +1,91 @@
+body {
+  height: 93vh;
+  text-align: center;
+  background-image: linear-gradient( 114.2deg,  rgba(121,194,243,1) 22.6%, rgba(255,180,239,1) 67.7% );
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #440381;
+  font-family: "Arvo", cursive;
+  text-shadow: 5px 0 #4d1f0a;
+
+}
+
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+
+.drum {
+  outline: none;
+  border: 5px solid #6b3922;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #5b2a7c;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+/* ###################### footer-styling ################### */
+.footer{
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 18px;
+  padding-top: 70px;
+  color: #4d1f0a;
+  margin-bottom: 2px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: #86045b;
+}
